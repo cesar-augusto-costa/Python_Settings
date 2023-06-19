@@ -1,0 +1,14 @@
+- PEP8
+pylint .\start.py
+pylint --generate-rcfile > .pylintrc
+
+- FORMATADOR DE CODIGO
+black .\start.py
+pip freeze > requirements.txt
+
+- CRIAR ARQUIVO DE DEPENDENCIA
+pip freeze > requirements.txt
+
+- RODAR O TESTE
+pytest
+pytest -v
