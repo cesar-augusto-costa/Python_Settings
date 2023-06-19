@@ -12,3 +12,5 @@ pip freeze > requirements.txt
 - RODAR O TESTE
 pytest
 pytest -v
+
+pre-commit install
